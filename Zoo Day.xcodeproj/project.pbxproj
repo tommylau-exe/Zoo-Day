@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AF2AFCE208174A200D13A98 /* LegalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2AFCD208174A200D13A98 /* LegalViewController.swift */; };
+		E70404C71E63B9D600672015 /* Rustling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E70404C61E63B9D600672015 /* Rustling.mp3 */; };
+		E70404C91E63C00E00672015 /* TemplateScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E70404C81E63C00E00672015 /* TemplateScene.sks */; };
+		E70404CB1E63C90200672015 /* Scene07.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70404CA1E63C90200672015 /* Scene07.swift */; };
+		E70404CD1E63CC4800672015 /* Zap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E70404CC1E63CC4800672015 /* Zap.mp3 */; };
+		E70404CF1E63D1C300672015 /* Scene08.sks in Resources */ = {isa = PBXBuildFile; fileRef = E70404CE1E63D1C300672015 /* Scene08.sks */; };
+		E70404D21E63D6AF00672015 /* Idea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E70404D01E63D6AF00672015 /* Idea.mp3 */; };
+		E70404D31E63D6AF00672015 /* Question.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E70404D11E63D6AF00672015 /* Question.mp3 */; };
+		E70404D51E63D74D00672015 /* Scene08.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70404D41E63D74D00672015 /* Scene08.swift */; };
+		E70404D71E63DDFA00672015 /* Scene09.sks in Resources */ = {isa = PBXBuildFile; fileRef = E70404D61E63DDFA00672015 /* Scene09.sks */; };
+		E70404D91E63DEE200672015 /* Scene09.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70404D81E63DEE200672015 /* Scene09.swift */; };
+		E712F2051E523F2F0099CEBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E712F2041E523F2F0099CEBD /* AppDelegate.swift */; };
+		E712F2071E523F2F0099CEBD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E712F2061E523F2F0099CEBD /* GameScene.sks */; };
+		E712F2091E523F2F0099CEBD /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E712F2081E523F2F0099CEBD /* Actions.sks */; };
+		E712F20B1E523F2F0099CEBD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E712F20A1E523F2F0099CEBD /* GameScene.swift */; };
+		E712F20D1E523F2F0099CEBD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E712F20C1E523F2F0099CEBD /* GameViewController.swift */; };
+		E712F2101E523F2F0099CEBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E712F20E1E523F2F0099CEBD /* Main.storyboard */; };
+		E712F2121E523F2F0099CEBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E712F2111E523F2F0099CEBD /* Assets.xcassets */; };
+		E712F2151E523F2F0099CEBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E712F2131E523F2F0099CEBD /* LaunchScreen.storyboard */; };
+		E712F21D1E5243370099CEBD /* TitleScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E712F21C1E5243370099CEBD /* TitleScene.sks */; };
+		E71C29D41E63ADD800996832 /* Scene06.sks in Resources */ = {isa = PBXBuildFile; fileRef = E71C29D31E63ADD800996832 /* Scene06.sks */; };
+		E71C29D61E63B02500996832 /* Scene06.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71C29D51E63B02500996832 /* Scene06.swift */; };
+		E72C68761E614E54001A7116 /* Scene04.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72C68751E614E54001A7116 /* Scene04.swift */; };
+		E74A94EC1E54E85800C08B14 /* TitleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74A94EB1E54E85800C08B14 /* TitleScene.swift */; };
+		E74BB3EE1E61020A000C2992 /* Scene03.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74BB3ED1E61020A000C2992 /* Scene03.swift */; };
+		E756DA741E60CA98001CDF17 /* Scene02.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756DA731E60CA98001CDF17 /* Scene02.swift */; };
+		E75AE28A1E636B130067D4C3 /* Meow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E75AE2841E636B130067D4C3 /* Meow.mp3 */; };
+		E75AE28B1E636B130067D4C3 /* Alarm2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E75AE2851E636B130067D4C3 /* Alarm2.mp3 */; };
+		E75AE28C1E636B130067D4C3 /* Twinkle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E75AE2861E636B130067D4C3 /* Twinkle.mp3 */; };
+		E75AE28D1E636B130067D4C3 /* Slide.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E75AE2871E636B130067D4C3 /* Slide.mp3 */; };
+		E75AE28E1E636B130067D4C3 /* PageTurn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E75AE2881E636B130067D4C3 /* PageTurn.mp3 */; };
+		E75AE28F1E636B130067D4C3 /* Alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E75AE2891E636B130067D4C3 /* Alarm.mp3 */; };
+		E75AE2911E6371930067D4C3 /* Scene05.sks in Resources */ = {isa = PBXBuildFile; fileRef = E75AE2901E6371930067D4C3 /* Scene05.sks */; };
+		E75AE2931E637EEA0067D4C3 /* Scene05.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75AE2921E637EEA0067D4C3 /* Scene05.swift */; };
+		E75AE2951E6387540067D4C3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75AE2941E6387540067D4C3 /* Extensions.swift */; };
+		E75AE2981E6393CE0067D4C3 /* HonkShort.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E75AE2961E6393CE0067D4C3 /* HonkShort.mp3 */; };
+		E75AE2991E6393CE0067D4C3 /* Honk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E75AE2971E6393CE0067D4C3 /* Honk.mp3 */; };
+		E76C6B351E60F8F7003C8458 /* Scene03.sks in Resources */ = {isa = PBXBuildFile; fileRef = E76C6B341E60F8F7003C8458 /* Scene03.sks */; };
+		E76F81051E63F41100915949 /* Scene11.sks in Resources */ = {isa = PBXBuildFile; fileRef = E76F81041E63F41100915949 /* Scene11.sks */; };
+		E76F81071E63F61A00915949 /* Scene11.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76F81061E63F61A00915949 /* Scene11.swift */; };
+		E78BC8B81E6146B100BAB3CA /* Scene04.sks in Resources */ = {isa = PBXBuildFile; fileRef = E78BC8B71E6146B100BAB3CA /* Scene04.sks */; };
+		E79FCFF81E649E66000F995C /* Scene12.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FCFF71E649E66000F995C /* Scene12.swift */; };
+		E79FCFFA1E64BE64000F995C /* Scene13.sks in Resources */ = {isa = PBXBuildFile; fileRef = E79FCFF91E64BE64000F995C /* Scene13.sks */; };
+		E7ABAB801E60F0DB00C14565 /* Bark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7ABAB7F1E60F0DB00C14565 /* Bark.mp3 */; };
+		E7AE8F591E5E1FEE003D5F85 /* Footer.sks in Resources */ = {isa = PBXBuildFile; fileRef = E7AE8F581E5E1FEE003D5F85 /* Footer.sks */; };
+		E7AE8F5D1E5E288C003D5F85 /* Scene07.sks in Resources */ = {isa = PBXBuildFile; fileRef = E7AE8F5C1E5E288C003D5F85 /* Scene07.sks */; };
+		E7C09B261E64EC56006570EF /* Cheering.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7C09B251E64EC56006570EF /* Cheering.mp3 */; };
+		E7C09B281E64ED73006570EF /* Squawk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7C09B271E64ED73006570EF /* Squawk.mp3 */; };
+		E7C09B2B1E64F07F006570EF /* Sploosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7C09B291E64F07F006570EF /* Sploosh.mp3 */; };
+		E7C09B341E64F328006570EF /* Scene13.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C09B331E64F328006570EF /* Scene13.swift */; };
+		E7C151471E5FBFE90052919F /* Scene01.sks in Resources */ = {isa = PBXBuildFile; fileRef = E7C151461E5FBFE90052919F /* Scene01.sks */; };
+		E7C151491E5FC0290052919F /* Scene01.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C151481E5FC0290052919F /* Scene01.swift */; };
+		E7E3AA421E5FE11600AD5530 /* Pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7E3AA401E5FE11600AD5530 /* Pop.mp3 */; };
+		E7E44C111E6488AE001C759E /* Scene12.sks in Resources */ = {isa = PBXBuildFile; fileRef = E7E44C101E6488AE001C759E /* Scene12.sks */; };
+		E7F1B8B21E65058E00B41770 /* Scene14.sks in Resources */ = {isa = PBXBuildFile; fileRef = E7F1B8B11E65058E00B41770 /* Scene14.sks */; };
+		E7F1B8C11E652AFC00B41770 /* Scene01Narration.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7F1B8B31E652AFC00B41770 /* Scene01Narration.mp3 */; };
+		E7F1B8C21E652AFC00B41770 /* Scene02Narration.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7F1B8B41E652AFC00B41770 /* Scene02Narration.mp3 */; };
+		E7F1B8C31E652AFC00B41770 /* Scene03Narration.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7F1B8B51E652AFC00B41770 /* Scene03Narration.mp3 */; };
+		E7F1B8C41E652AFC00B41770 /* Scene04Narration.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7F1B8B61E652AFC00B41770 /* Scene04Narration.mp3 */; };
+		E7F1B8C51E652AFC00B41770 /* Scene05Narration.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7F1B8B71E652AFC00B41770 /* Scene05Narration.mp3 */; };
+		E7F1B8C61E652AFC00B41770 /* Scene06Narration.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7F1B8B81E652AFC00B41770 /* Scene06Narration.mp3 */; };
+		E7F1B8C71E652AFC00B41770 /* Scene07Narration.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7F1B8B91E652AFC00B41770 /* Scene07Narration.mp3 */; };
+		E7F1B8C81E652AFC00B41770 /* Scene08Narration.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7F1B8BA1E652AFC00B41770 /* Scene08Narration.mp3 */; };
+		E7F1B8C91E652AFC00B41770 /* Scene09Narration.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7F1B8BB1E652AFC00B41770 /* Scene09Narration.mp3 */; };
+		E7F1B8CA1E652AFC00B41770 /* Scene10Narration.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7F1B8BC1E652AFC00B41770 /* Scene10Narration.mp3 */; };
+		E7F1B8CB1E652AFC00B41770 /* Scene11Narration.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7F1B8BD1E652AFC00B41770 /* Scene11Narration.mp3 */; };
+		E7F1B8CC1E652AFC00B41770 /* Scene12Narration.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7F1B8BE1E652AFC00B41770 /* Scene12Narration.mp3 */; };
+		E7F1B8CD1E652AFC00B41770 /* Scene13Narration.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7F1B8BF1E652AFC00B41770 /* Scene13Narration.mp3 */; };
+		E7F1B8CE1E652AFC00B41770 /* Scene14Narration.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7F1B8C01E652AFC00B41770 /* Scene14Narration.mp3 */; };
+		E7F1B8D01E65303600B41770 /* Scene14.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F1B8CF1E65303600B41770 /* Scene14.swift */; };
+		E7F84A9E1E60BBF300F5EAFF /* Scene02.sks in Resources */ = {isa = PBXBuildFile; fileRef = E7F84A9D1E60BBF300F5EAFF /* Scene02.sks */; };
+		E7F8748D1E63EB9E00BC5E1A /* Scene10.sks in Resources */ = {isa = PBXBuildFile; fileRef = E7F8748C1E63EB9E00BC5E1A /* Scene10.sks */; };
+		E7F8748F1E63ED6D00BC5E1A /* Scene10.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F8748E1E63ED6D00BC5E1A /* Scene10.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8AF2AFCD208174A200D13A98 /* LegalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalViewController.swift; sourceTree = "<group>"; };
+		8AF2AFCF208174C000D13A98 /* Monkey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Monkey.mp3; path = "/Users/tempix/Xcode Projects/High School/Project 17 Children's Book/Zoo Day/Zoo Day/Monkey.mp3"; sourceTree = "<absolute>"; };
+		8AF2AFD0208174C000D13A98 /* Penguin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Penguin.mp3; path = "/Users/tempix/Xcode Projects/High School/Project 17 Children's Book/Zoo Day/Zoo Day/Penguin.mp3"; sourceTree = "<absolute>"; };
+		E70404C61E63B9D600672015 /* Rustling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rustling.mp3; sourceTree = "<group>"; };
+		E70404C81E63C00E00672015 /* TemplateScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TemplateScene.sks; sourceTree = "<group>"; };
+		E70404CA1E63C90200672015 /* Scene07.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene07.swift; sourceTree = "<group>"; };
+		E70404CC1E63CC4800672015 /* Zap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Zap.mp3; sourceTree = "<group>"; };
+		E70404CE1E63D1C300672015 /* Scene08.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene08.sks; sourceTree = "<group>"; };
+		E70404D01E63D6AF00672015 /* Idea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Idea.mp3; sourceTree = "<group>"; };
+		E70404D11E63D6AF00672015 /* Question.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Question.mp3; sourceTree = "<group>"; };
+		E70404D41E63D74D00672015 /* Scene08.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene08.swift; sourceTree = "<group>"; };
+		E70404D61E63DDFA00672015 /* Scene09.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene09.sks; sourceTree = "<group>"; };
+		E70404D81E63DEE200672015 /* Scene09.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene09.swift; sourceTree = "<group>"; };
+		E712F2011E523F2F0099CEBD /* Zoo Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zoo Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E712F2041E523F2F0099CEBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E712F2061E523F2F0099CEBD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E712F2081E523F2F0099CEBD /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		E712F20A1E523F2F0099CEBD /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E712F20C1E523F2F0099CEBD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E712F20F1E523F2F0099CEBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E712F2111E523F2F0099CEBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E712F2141E523F2F0099CEBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E712F2161E523F2F0099CEBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E712F21C1E5243370099CEBD /* TitleScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TitleScene.sks; sourceTree = "<group>"; };
+		E71C29D31E63ADD800996832 /* Scene06.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene06.sks; sourceTree = "<group>"; };
+		E71C29D51E63B02500996832 /* Scene06.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene06.swift; sourceTree = "<group>"; };
+		E72C68751E614E54001A7116 /* Scene04.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene04.swift; sourceTree = "<group>"; };
+		E74A94EB1E54E85800C08B14 /* TitleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleScene.swift; sourceTree = "<group>"; };
+		E74BB3ED1E61020A000C2992 /* Scene03.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene03.swift; sourceTree = "<group>"; };
+		E756DA731E60CA98001CDF17 /* Scene02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene02.swift; sourceTree = "<group>"; };
+		E75AE2841E636B130067D4C3 /* Meow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Meow.mp3; sourceTree = "<group>"; };
+		E75AE2851E636B130067D4C3 /* Alarm2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm2.mp3; sourceTree = "<group>"; };
+		E75AE2861E636B130067D4C3 /* Twinkle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Twinkle.mp3; sourceTree = "<group>"; };
+		E75AE2871E636B130067D4C3 /* Slide.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Slide.mp3; sourceTree = "<group>"; };
+		E75AE2881E636B130067D4C3 /* PageTurn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PageTurn.mp3; sourceTree = "<group>"; };
+		E75AE2891E636B130067D4C3 /* Alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm.mp3; sourceTree = "<group>"; };
+		E75AE2901E6371930067D4C3 /* Scene05.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene05.sks; sourceTree = "<group>"; };
+		E75AE2921E637EEA0067D4C3 /* Scene05.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene05.swift; sourceTree = "<group>"; };
+		E75AE2941E6387540067D4C3 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E75AE2961E6393CE0067D4C3 /* HonkShort.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HonkShort.mp3; sourceTree = "<group>"; };
+		E75AE2971E6393CE0067D4C3 /* Honk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Honk.mp3; sourceTree = "<group>"; };
+		E76C6B341E60F8F7003C8458 /* Scene03.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene03.sks; sourceTree = "<group>"; };
+		E76F81041E63F41100915949 /* Scene11.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene11.sks; sourceTree = "<group>"; };
+		E76F81061E63F61A00915949 /* Scene11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene11.swift; sourceTree = "<group>"; };
+		E78BC8B71E6146B100BAB3CA /* Scene04.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene04.sks; sourceTree = "<group>"; };
+		E79FCFF71E649E66000F995C /* Scene12.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene12.swift; sourceTree = "<group>"; };
+		E79FCFF91E64BE64000F995C /* Scene13.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene13.sks; sourceTree = "<group>"; };
+		E7ABAB7F1E60F0DB00C14565 /* Bark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bark.mp3; sourceTree = "<group>"; };
+		E7AE8F581E5E1FEE003D5F85 /* Footer.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Footer.sks; sourceTree = "<group>"; };
+		E7AE8F5C1E5E288C003D5F85 /* Scene07.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene07.sks; sourceTree = "<group>"; };
+		E7C09B251E64EC56006570EF /* Cheering.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cheering.mp3; sourceTree = "<group>"; };
+		E7C09B271E64ED73006570EF /* Squawk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Squawk.mp3; sourceTree = "<group>"; };
+		E7C09B291E64F07F006570EF /* Sploosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sploosh.mp3; sourceTree = "<group>"; };
+		E7C09B331E64F328006570EF /* Scene13.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene13.swift; sourceTree = "<group>"; };
+		E7C151461E5FBFE90052919F /* Scene01.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene01.sks; sourceTree = "<group>"; };
+		E7C151481E5FC0290052919F /* Scene01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene01.swift; sourceTree = "<group>"; };
+		E7E3AA401E5FE11600AD5530 /* Pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pop.mp3; sourceTree = "<group>"; };
+		E7E44C101E6488AE001C759E /* Scene12.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene12.sks; sourceTree = "<group>"; };
+		E7F1B8B11E65058E00B41770 /* Scene14.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene14.sks; sourceTree = "<group>"; };
+		E7F1B8B31E652AFC00B41770 /* Scene01Narration.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Scene01Narration.mp3; sourceTree = "<group>"; };
+		E7F1B8B41E652AFC00B41770 /* Scene02Narration.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Scene02Narration.mp3; sourceTree = "<group>"; };
+		E7F1B8B51E652AFC00B41770 /* Scene03Narration.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Scene03Narration.mp3; sourceTree = "<group>"; };
+		E7F1B8B61E652AFC00B41770 /* Scene04Narration.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Scene04Narration.mp3; sourceTree = "<group>"; };
+		E7F1B8B71E652AFC00B41770 /* Scene05Narration.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Scene05Narration.mp3; sourceTree = "<group>"; };
+		E7F1B8B81E652AFC00B41770 /* Scene06Narration.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Scene06Narration.mp3; sourceTree = "<group>"; };
+		E7F1B8B91E652AFC00B41770 /* Scene07Narration.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Scene07Narration.mp3; sourceTree = "<group>"; };
+		E7F1B8BA1E652AFC00B41770 /* Scene08Narration.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Scene08Narration.mp3; sourceTree = "<group>"; };
+		E7F1B8BB1E652AFC00B41770 /* Scene09Narration.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Scene09Narration.mp3; sourceTree = "<group>"; };
+		E7F1B8BC1E652AFC00B41770 /* Scene10Narration.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Scene10Narration.mp3; sourceTree = "<group>"; };
+		E7F1B8BD1E652AFC00B41770 /* Scene11Narration.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Scene11Narration.mp3; sourceTree = "<group>"; };
+		E7F1B8BE1E652AFC00B41770 /* Scene12Narration.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Scene12Narration.mp3; sourceTree = "<group>"; };
+		E7F1B8BF1E652AFC00B41770 /* Scene13Narration.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Scene13Narration.mp3; sourceTree = "<group>"; };
+		E7F1B8C01E652AFC00B41770 /* Scene14Narration.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Scene14Narration.mp3; sourceTree = "<group>"; };
+		E7F1B8CF1E65303600B41770 /* Scene14.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene14.swift; sourceTree = "<group>"; };
+		E7F84A9D1E60BBF300F5EAFF /* Scene02.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene02.sks; sourceTree = "<group>"; };
+		E7F8748C1E63EB9E00BC5E1A /* Scene10.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene10.sks; sourceTree = "<group>"; };
+		E7F8748E1E63ED6D00BC5E1A /* Scene10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene10.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E712F1FE1E523F2F0099CEBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E712F1F81E523F2F0099CEBD = {
+			isa = PBXGroup;
+			children = (
+				E712F2031E523F2F0099CEBD /* Zoo Day */,
+				E712F2021E523F2F0099CEBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E712F2021E523F2F0099CEBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E712F2011E523F2F0099CEBD /* Zoo Day.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E712F2031E523F2F0099CEBD /* Zoo Day */ = {
+			isa = PBXGroup;
+			children = (
+				E712F2041E523F2F0099CEBD /* AppDelegate.swift */,
+				E7AE8F581E5E1FEE003D5F85 /* Footer.sks */,
+				E712F2061E523F2F0099CEBD /* GameScene.sks */,
+				E712F20A1E523F2F0099CEBD /* GameScene.swift */,
+				E72A88C31E5FD38800763B6B /* Scenes */,
+				E712F2081E523F2F0099CEBD /* Actions.sks */,
+				E712F20C1E523F2F0099CEBD /* GameViewController.swift */,
+				8AF2AFCD208174A200D13A98 /* LegalViewController.swift */,
+				E75AE2941E6387540067D4C3 /* Extensions.swift */,
+				E712F20E1E523F2F0099CEBD /* Main.storyboard */,
+				E712F2131E523F2F0099CEBD /* LaunchScreen.storyboard */,
+				E712F2161E523F2F0099CEBD /* Info.plist */,
+				E712F2111E523F2F0099CEBD /* Assets.xcassets */,
+				E75AE27F1E624EB90067D4C3 /* Narration */,
+				E72A88BA1E5FCE7800763B6B /* Sounds */,
+			);
+			path = "Zoo Day";
+			sourceTree = "<group>";
+		};
+		E72A88BA1E5FCE7800763B6B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8AF2AFCF208174C000D13A98 /* Monkey.mp3 */,
+				8AF2AFD0208174C000D13A98 /* Penguin.mp3 */,
+				E7E3AA401E5FE11600AD5530 /* Pop.mp3 */,
+				E75AE2961E6393CE0067D4C3 /* HonkShort.mp3 */,
+				E75AE2971E6393CE0067D4C3 /* Honk.mp3 */,
+				E75AE2841E636B130067D4C3 /* Meow.mp3 */,
+				E75AE2851E636B130067D4C3 /* Alarm2.mp3 */,
+				E75AE2861E636B130067D4C3 /* Twinkle.mp3 */,
+				E70404D01E63D6AF00672015 /* Idea.mp3 */,
+				E70404D11E63D6AF00672015 /* Question.mp3 */,
+				E70404C61E63B9D600672015 /* Rustling.mp3 */,
+				E75AE2871E636B130067D4C3 /* Slide.mp3 */,
+				E7C09B291E64F07F006570EF /* Sploosh.mp3 */,
+				E75AE2881E636B130067D4C3 /* PageTurn.mp3 */,
+				E70404CC1E63CC4800672015 /* Zap.mp3 */,
+				E7C09B251E64EC56006570EF /* Cheering.mp3 */,
+				E75AE2891E636B130067D4C3 /* Alarm.mp3 */,
+				E7C09B271E64ED73006570EF /* Squawk.mp3 */,
+				E7ABAB7F1E60F0DB00C14565 /* Bark.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		E72A88C31E5FD38800763B6B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E712F21C1E5243370099CEBD /* TitleScene.sks */,
+				E74A94EB1E54E85800C08B14 /* TitleScene.swift */,
+				E7C151461E5FBFE90052919F /* Scene01.sks */,
+				E7C151481E5FC0290052919F /* Scene01.swift */,
+				E7F84A9D1E60BBF300F5EAFF /* Scene02.sks */,
+				E756DA731E60CA98001CDF17 /* Scene02.swift */,
+				E76C6B341E60F8F7003C8458 /* Scene03.sks */,
+				E74BB3ED1E61020A000C2992 /* Scene03.swift */,
+				E78BC8B71E6146B100BAB3CA /* Scene04.sks */,
+				E72C68751E614E54001A7116 /* Scene04.swift */,
+				E75AE2901E6371930067D4C3 /* Scene05.sks */,
+				E75AE2921E637EEA0067D4C3 /* Scene05.swift */,
+				E71C29D31E63ADD800996832 /* Scene06.sks */,
+				E71C29D51E63B02500996832 /* Scene06.swift */,
+				E7AE8F5C1E5E288C003D5F85 /* Scene07.sks */,
+				E70404CA1E63C90200672015 /* Scene07.swift */,
+				E70404CE1E63D1C300672015 /* Scene08.sks */,
+				E70404D41E63D74D00672015 /* Scene08.swift */,
+				E70404D61E63DDFA00672015 /* Scene09.sks */,
+				E70404D81E63DEE200672015 /* Scene09.swift */,
+				E7F8748C1E63EB9E00BC5E1A /* Scene10.sks */,
+				E7F8748E1E63ED6D00BC5E1A /* Scene10.swift */,
+				E76F81041E63F41100915949 /* Scene11.sks */,
+				E76F81061E63F61A00915949 /* Scene11.swift */,
+				E7E44C101E6488AE001C759E /* Scene12.sks */,
+				E79FCFF71E649E66000F995C /* Scene12.swift */,
+				E79FCFF91E64BE64000F995C /* Scene13.sks */,
+				E7C09B331E64F328006570EF /* Scene13.swift */,
+				E7F1B8B11E65058E00B41770 /* Scene14.sks */,
+				E7F1B8CF1E65303600B41770 /* Scene14.swift */,
+				E70404C81E63C00E00672015 /* TemplateScene.sks */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		E75AE27F1E624EB90067D4C3 /* Narration */ = {
+			isa = PBXGroup;
+			children = (
+				E7F1B8B31E652AFC00B41770 /* Scene01Narration.mp3 */,
+				E7F1B8B41E652AFC00B41770 /* Scene02Narration.mp3 */,
+				E7F1B8B51E652AFC00B41770 /* Scene03Narration.mp3 */,
+				E7F1B8B61E652AFC00B41770 /* Scene04Narration.mp3 */,
+				E7F1B8B71E652AFC00B41770 /* Scene05Narration.mp3 */,
+				E7F1B8B81E652AFC00B41770 /* Scene06Narration.mp3 */,
+				E7F1B8B91E652AFC00B41770 /* Scene07Narration.mp3 */,
+				E7F1B8BA1E652AFC00B41770 /* Scene08Narration.mp3 */,
+				E7F1B8BB1E652AFC00B41770 /* Scene09Narration.mp3 */,
+				E7F1B8BC1E652AFC00B41770 /* Scene10Narration.mp3 */,
+				E7F1B8BD1E652AFC00B41770 /* Scene11Narration.mp3 */,
+				E7F1B8BE1E652AFC00B41770 /* Scene12Narration.mp3 */,
+				E7F1B8BF1E652AFC00B41770 /* Scene13Narration.mp3 */,
+				E7F1B8C01E652AFC00B41770 /* Scene14Narration.mp3 */,
+			);
+			name = Narration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E712F2001E523F2F0099CEBD /* Zoo Day */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E712F2191E523F2F0099CEBD /* Build configuration list for PBXNativeTarget "Zoo Day" */;
+			buildPhases = (
+				E712F1FD1E523F2F0099CEBD /* Sources */,
+				E712F1FE1E523F2F0099CEBD /* Frameworks */,
+				E712F1FF1E523F2F0099CEBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zoo Day";
+			productName = "Zoo Day";
+			productReference = E712F2011E523F2F0099CEBD /* Zoo Day.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E712F1F91E523F2F0099CEBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					Pop,
+				);
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Thomas Lauerman";
+				TargetAttributes = {
+					E712F2001E523F2F0099CEBD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FNZMK8T5F9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E712F1FC1E523F2F0099CEBD /* Build configuration list for PBXProject "Zoo Day" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E712F1F81E523F2F0099CEBD;
+			productRefGroup = E712F2021E523F2F0099CEBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E712F2001E523F2F0099CEBD /* Zoo Day */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E712F1FF1E523F2F0099CEBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E712F2101E523F2F0099CEBD /* Main.storyboard in Resources */,
+				E70404D71E63DDFA00672015 /* Scene09.sks in Resources */,
+				E76F81051E63F41100915949 /* Scene11.sks in Resources */,
+				E75AE28C1E636B130067D4C3 /* Twinkle.mp3 in Resources */,
+				E712F2071E523F2F0099CEBD /* GameScene.sks in Resources */,
+				E7F1B8C11E652AFC00B41770 /* Scene01Narration.mp3 in Resources */,
+				E7AE8F5D1E5E288C003D5F85 /* Scene07.sks in Resources */,
+				E712F2121E523F2F0099CEBD /* Assets.xcassets in Resources */,
+				E7C09B2B1E64F07F006570EF /* Sploosh.mp3 in Resources */,
+				E75AE2981E6393CE0067D4C3 /* HonkShort.mp3 in Resources */,
+				E70404CF1E63D1C300672015 /* Scene08.sks in Resources */,
+				E7F1B8C61E652AFC00B41770 /* Scene06Narration.mp3 in Resources */,
+				E75AE2991E6393CE0067D4C3 /* Honk.mp3 in Resources */,
+				E7F1B8CE1E652AFC00B41770 /* Scene14Narration.mp3 in Resources */,
+				E7C09B281E64ED73006570EF /* Squawk.mp3 in Resources */,
+				E7E3AA421E5FE11600AD5530 /* Pop.mp3 in Resources */,
+				E712F2151E523F2F0099CEBD /* LaunchScreen.storyboard in Resources */,
+				E78BC8B81E6146B100BAB3CA /* Scene04.sks in Resources */,
+				E75AE28B1E636B130067D4C3 /* Alarm2.mp3 in Resources */,
+				E70404C71E63B9D600672015 /* Rustling.mp3 in Resources */,
+				E7F1B8CB1E652AFC00B41770 /* Scene11Narration.mp3 in Resources */,
+				E712F2091E523F2F0099CEBD /* Actions.sks in Resources */,
+				E7AE8F591E5E1FEE003D5F85 /* Footer.sks in Resources */,
+				E7F1B8CA1E652AFC00B41770 /* Scene10Narration.mp3 in Resources */,
+				E7F1B8C51E652AFC00B41770 /* Scene05Narration.mp3 in Resources */,
+				E7F8748D1E63EB9E00BC5E1A /* Scene10.sks in Resources */,
+				E71C29D41E63ADD800996832 /* Scene06.sks in Resources */,
+				E70404CD1E63CC4800672015 /* Zap.mp3 in Resources */,
+				E7F1B8CC1E652AFC00B41770 /* Scene12Narration.mp3 in Resources */,
+				E7E44C111E6488AE001C759E /* Scene12.sks in Resources */,
+				E7C09B261E64EC56006570EF /* Cheering.mp3 in Resources */,
+				E7F84A9E1E60BBF300F5EAFF /* Scene02.sks in Resources */,
+				E70404C91E63C00E00672015 /* TemplateScene.sks in Resources */,
+				E76C6B351E60F8F7003C8458 /* Scene03.sks in Resources */,
+				E75AE28D1E636B130067D4C3 /* Slide.mp3 in Resources */,
+				E70404D31E63D6AF00672015 /* Question.mp3 in Resources */,
+				E75AE2911E6371930067D4C3 /* Scene05.sks in Resources */,
+				E7F1B8CD1E652AFC00B41770 /* Scene13Narration.mp3 in Resources */,
+				E7F1B8C41E652AFC00B41770 /* Scene04Narration.mp3 in Resources */,
+				E75AE28F1E636B130067D4C3 /* Alarm.mp3 in Resources */,
+				E7F1B8C71E652AFC00B41770 /* Scene07Narration.mp3 in Resources */,
+				E7ABAB801E60F0DB00C14565 /* Bark.mp3 in Resources */,
+				E75AE28E1E636B130067D4C3 /* PageTurn.mp3 in Resources */,
+				E712F21D1E5243370099CEBD /* TitleScene.sks in Resources */,
+				E7F1B8C31E652AFC00B41770 /* Scene03Narration.mp3 in Resources */,
+				E79FCFFA1E64BE64000F995C /* Scene13.sks in Resources */,
+				E7F1B8C21E652AFC00B41770 /* Scene02Narration.mp3 in Resources */,
+				E7F1B8C81E652AFC00B41770 /* Scene08Narration.mp3 in Resources */,
+				E7F1B8C91E652AFC00B41770 /* Scene09Narration.mp3 in Resources */,
+				E70404D21E63D6AF00672015 /* Idea.mp3 in Resources */,
+				E75AE28A1E636B130067D4C3 /* Meow.mp3 in Resources */,
+				E7C151471E5FBFE90052919F /* Scene01.sks in Resources */,
+				E7F1B8B21E65058E00B41770 /* Scene14.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E712F1FD1E523F2F0099CEBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E756DA741E60CA98001CDF17 /* Scene02.swift in Sources */,
+				E712F20B1E523F2F0099CEBD /* GameScene.swift in Sources */,
+				E72C68761E614E54001A7116 /* Scene04.swift in Sources */,
+				E75AE2931E637EEA0067D4C3 /* Scene05.swift in Sources */,
+				E712F20D1E523F2F0099CEBD /* GameViewController.swift in Sources */,
+				E75AE2951E6387540067D4C3 /* Extensions.swift in Sources */,
+				E712F2051E523F2F0099CEBD /* AppDelegate.swift in Sources */,
+				E70404D91E63DEE200672015 /* Scene09.swift in Sources */,
+				E76F81071E63F61A00915949 /* Scene11.swift in Sources */,
+				E7F8748F1E63ED6D00BC5E1A /* Scene10.swift in Sources */,
+				E74BB3EE1E61020A000C2992 /* Scene03.swift in Sources */,
+				E71C29D61E63B02500996832 /* Scene06.swift in Sources */,
+				E70404CB1E63C90200672015 /* Scene07.swift in Sources */,
+				E7F1B8D01E65303600B41770 /* Scene14.swift in Sources */,
+				E79FCFF81E649E66000F995C /* Scene12.swift in Sources */,
+				8AF2AFCE208174A200D13A98 /* LegalViewController.swift in Sources */,
+				E7C09B341E64F328006570EF /* Scene13.swift in Sources */,
+				E70404D51E63D74D00672015 /* Scene08.swift in Sources */,
+				E7C151491E5FC0290052919F /* Scene01.swift in Sources */,
+				E74A94EC1E54E85800C08B14 /* TitleScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E712F20E1E523F2F0099CEBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E712F20F1E523F2F0099CEBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E712F2131E523F2F0099CEBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E712F2141E523F2F0099CEBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E712F2171E523F2F0099CEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E712F2181E523F2F0099CEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E712F21A1E523F2F0099CEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FNZMK8T5F9;
+				INFOPLIST_FILE = "Zoo Day/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.lauerman.Zoo-Day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E712F21B1E523F2F0099CEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FNZMK8T5F9;
+				INFOPLIST_FILE = "Zoo Day/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.lauerman.Zoo-Day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E712F1FC1E523F2F0099CEBD /* Build configuration list for PBXProject "Zoo Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E712F2171E523F2F0099CEBD /* Debug */,
+				E712F2181E523F2F0099CEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E712F2191E523F2F0099CEBD /* Build configuration list for PBXNativeTarget "Zoo Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E712F21A1E523F2F0099CEBD /* Debug */,
+				E712F21B1E523F2F0099CEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E712F1F91E523F2F0099CEBD /* Project object */;
+}

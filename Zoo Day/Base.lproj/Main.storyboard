@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="GameViewController" customModule="Zoo_Day" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8aa-yV-Osq"/>
+                        <viewControllerLayoutGuide type="bottom" id="qHh-Mt-9TT"/>
+                    </layoutGuides>
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <segue destination="wyL-j9-WaB" kind="presentation" identifier="showLegal" modalPresentationStyle="formSheet" id="1Lb-eK-GqH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="134" y="123"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="OAf-2I-peS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wyL-j9-WaB" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hPf-uS-d1b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="VCw-Ux-hir">
+                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="pH0-TV-K6I" kind="relationship" relationship="rootViewController" id="fRj-tp-jj2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5gv-6f-M0m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117.5999999999999" y="122.78860569715144"/>
+        </scene>
+        <!--Legal-->
+        <scene sceneID="6XR-RU-lCA">
+            <objects>
+                <tableViewController title="Legal" id="pH0-TV-K6I" customClass="LegalViewController" customModule="Zoo_Day" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="xZ7-WJ-48A">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection headerTitle="Distributed by Frisco ISD" footerTitle="ZOO DAY © 2017" id="yte-Dv-I6y">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="150" id="3vu-N6-IlC">
+                                        <rect key="frame" x="0.0" y="56" width="375" height="150"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3vu-N6-IlC" id="krK-d5-8ou">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="149"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="bL8-qq-hDm">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="149"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FISD" translatesAutoresizingMaskIntoConstraints="NO" id="Cws-WH-EHf">
+                                                            <rect key="frame" x="0.0" y="0.0" width="185" height="149"/>
+                                                        </imageView>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CTE" translatesAutoresizingMaskIntoConstraints="NO" id="SZ5-9n-kGO">
+                                                            <rect key="frame" x="190" y="0.0" width="185" height="149"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="bL8-qq-hDm" firstAttribute="top" secondItem="krK-d5-8ou" secondAttribute="top" id="3UB-c1-jwt"/>
+                                                <constraint firstItem="bL8-qq-hDm" firstAttribute="leading" secondItem="krK-d5-8ou" secondAttribute="leading" id="fYs-mn-Yoe"/>
+                                                <constraint firstAttribute="bottom" secondItem="bL8-qq-hDm" secondAttribute="bottom" id="nzu-Vg-4Yo"/>
+                                                <constraint firstAttribute="trailing" secondItem="bL8-qq-hDm" secondAttribute="trailing" id="pEX-dl-oDV"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="pyu-tB-OK6" style="IBUITableViewCellStyleDefault" id="QRN-NN-SC3">
+                                        <rect key="frame" x="0.0" y="206" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QRN-NN-SC3" id="eK5-Vy-agB">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Career &amp; Technical Education Center, 9889 Wade Blvd, Frisco, TX 75034" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pyu-tB-OK6">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="gas-M0-eA1" style="IBUITableViewCellStyleDefault" id="m8e-X8-EfV">
+                                        <rect key="frame" x="0.0" y="250" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="m8e-X8-EfV" id="A5y-Nr-xhA">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Mrs. Nicky Fryman, Educational Practices Instructor" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gas-M0-eA1">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="0ZP-5y-WsH" style="IBUITableViewCellStyleDefault" id="dIO-4u-7e6">
+                                        <rect key="frame" x="0.0" y="294" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dIO-4u-7e6" id="wyT-H2-q4U">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Mrs. Diana Bacon, Graphic Design &amp; Illustration Instructor" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0ZP-5y-WsH">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="IAH-94-MV7" style="IBUITableViewCellStyleDefault" id="Bhq-a8-WrS">
+                                        <rect key="frame" x="0.0" y="338" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Bhq-a8-WrS" id="M07-BH-CMj">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Mr. Gerald Page, Mobile Applications Instructor" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IAH-94-MV7">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="nX3-1w-60t">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="o8C-d5-PPT" style="IBUITableViewCellStyleDefault" id="zsX-vR-Adt">
+                                        <rect key="frame" x="0.0" y="430" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zsX-vR-Adt" id="UJP-9e-3Ro">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Rebecca Ventura, Author, CTEC Educational Practices Student" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="o8C-d5-PPT">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="eFB-Eg-WFc" style="IBUITableViewCellStyleDefault" id="gll-bB-W2S">
+                                        <rect key="frame" x="0.0" y="474" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gll-bB-W2S" id="wd0-m0-pQ4">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Kati Kaviani, Illustrator, CTEC Advanced Graphic Design &amp; Illustration Student" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eFB-Eg-WFc">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="aV7-xX-Ygc" style="IBUITableViewCellStyleDefault" id="uie-BP-cEy">
+                                        <rect key="frame" x="0.0" y="518" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uie-BP-cEy" id="MVS-Hh-Dj3">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Thomas Lauerman, Lead App Developer, CTEC Mobile Applications Student" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aV7-xX-Ygc">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="EJi-9y-XHs" style="IBUITableViewCellStyleDefault" id="fgz-lN-ZAL">
+                                        <rect key="frame" x="0.0" y="562" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fgz-lN-ZAL" id="wMx-ck-MAj">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Eric Phegley, App Developer, CTEC Mobile Applications Student" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EJi-9y-XHs">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="9KR-nM-bU6" style="IBUITableViewCellStyleDefault" id="FZe-cW-cxD">
+                                        <rect key="frame" x="0.0" y="606" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FZe-cW-cxD" id="HmK-Nx-pE5">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Kyrillos Samaan, App Developer, CTEC Mobile Applications Student" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9KR-nM-bU6">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Summary" id="IVG-5y-ejP">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="UpJ-Tx-Zp3" rowHeight="220" style="IBUITableViewCellStyleDefault" id="mYo-Ut-74w">
+                                        <rect key="frame" x="0.0" y="707" width="375" height="220"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mYo-Ut-74w" id="nfT-Rh-ben">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="219"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UpJ-Tx-Zp3">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="219"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <string key="text">Cross Curricular poject between the Education &amp; Training pathway, the Graphic Design &amp; Illustration Pathway, and the Mobile Applicaitons Pathway. The Education student wrote a story geared towards educating elementary-age children about a positive chracter trait. The Graphic Design student designed and illustrated the book. The Mobile Application students animated and turned the book into an app.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="3mm-bf-sJt">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="1hN-a4-U1t" style="IBUITableViewCellStyleDefault" id="Oms-bI-BgG">
+                                        <rect key="frame" x="0.0" y="963" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Oms-bI-BgG" id="qnN-9u-6lH">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Sound Effect Credits" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1hN-a4-U1t">
+                                                    <rect key="frame" x="15" y="0.0" width="325" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="pQA-VU-csd" kind="show" id="ofL-EN-1kH"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="pH0-TV-K6I" id="xeR-mE-gqJ"/>
+                            <outlet property="delegate" destination="pH0-TV-K6I" id="Q9F-Gk-BcS"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Legal" id="Vue-5i-xAH">
+                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="jZT-FD-YcJ">
+                            <connections>
+                                <action selector="cancelButtonTapped:" destination="pH0-TV-K6I" id="g8A-Lw-sWv"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0m5-iv-K6z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1976.8" y="122.78860569715144"/>
+        </scene>
+        <!--Sound Effect Credits-->
+        <scene sceneID="Ve5-Wu-V67">
+            <objects>
+                <viewController title="Sound Effect Credits" id="pQA-VU-csd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ezO-cv-Y4m"/>
+                        <viewControllerLayoutGuide type="bottom" id="2eo-Hr-DEo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Rt-39-d5f">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="a7D-oZ-Ohv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">All sounds downloaded from Freesound.org
+
+"Meow" originally called "Kitty Meow" by Npeo: https://www.freesound.org/people/Npeo/sounds/203121/
+"Alarm" originally called "Alarm1.mp3" by kwahmah_02: https://www.freesound.org/people/kwahmah_02/sounds/250629/
+"Pop" originally called "Pop!.wav" by kwahmah_02: https://www.freesound.org/people/kwahmah_02/sounds/260614/
+"Bark" originally called "Mr Dog_01.wav" by apolloaiello: https://www.freesound.org/people/apolloaiello/sounds/276267/
+"Alarm2" originally called "Alarm-02-Short.wav" by Lalks: https://www.freesound.org/people/Lalks/sounds/316837/
+"Twinkle" originally called "SE_refresh.aif" by Chanhuni: https://www.freesound.org/people/Chanhun/sounds/161322/
+"Slide" originally called "Slide Whistle" by Sheepfilms: https://www.freesound.org/people/sheepfilms/sounds/202753/
+"PageTurn" originally called "Page_Turn_24.wav" by Koops: https://www.freesound.org/people/Koops/sounds/20258/
+"Honk/ShortHonk" originally called "2006 Escape Hybrid Horn Honk.wav" by Koops: https://www.freesound.org/people/DomainHunter/sounds/377250/
+"Rustling" originally called "Rustling leaves" by Kinoton: https://www.freesound.org/people/Kinoton/sounds/347557/
+"Zap" originally called "ELECTRIC_ZAP_001.wav" by JoelAudio: https://www.freesound.org/people/JoelAudio/sounds/136542/
+"Question" originally called "hm question" by SkyRaeVoicing: https://www.freesound.org/people/SkyRaeVoicing/sounds/363578/
+"Idea" originally called "Idea.wav" by FxKid2: https://www.freesound.org/people/FxKid2/sounds/367627/
+"Cheering" originally called "Cheer 2.wav" by jayfrosting: https://www.freesound.org/people/jayfrosting/sounds/333404/
+"Squawk" originally called "Australian Magpie - Gymnorhina tibicen - Squawk 1.wav" by digifishmusic: http://www.freesound.org/people/digifishmusic/sounds/42793/
+"Penguin" originally called magellanic_penguin.wav" by soundbytez: https://www.freesound.org/people/soundbytez/sounds/111079/
+"Sploosh" originally called "Water splash 5.wav" by Adam_N: https://www.freesound.org/people/Adam_N/sounds/164596/
+"Monkey" originally called "Monkey screaming.wav" by Archeos: http://www.freesound.org/people/Archeos/sounds/325549/
+
+All sounds have been modified.
+All sounds are used under the Creative Commons Attribution License, which can be found at: https://creativecommons.org/licenses/by/3.0/</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2eo-Hr-DEo" firstAttribute="top" secondItem="a7D-oZ-Ohv" secondAttribute="bottom" id="Gm2-LG-pqc"/>
+                            <constraint firstItem="a7D-oZ-Ohv" firstAttribute="trailing" secondItem="4Rt-39-d5f" secondAttribute="trailingMargin" constant="16" id="HGh-bF-sKC"/>
+                            <constraint firstItem="a7D-oZ-Ohv" firstAttribute="leading" secondItem="4Rt-39-d5f" secondAttribute="leadingMargin" constant="-16" id="rHy-pb-FNn"/>
+                            <constraint firstItem="a7D-oZ-Ohv" firstAttribute="top" secondItem="ezO-cv-Y4m" secondAttribute="bottom" id="wNf-KL-KZt"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n8s-k8-1Yk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2818.4000000000001" y="125.4872563718141"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CTE" width="590" height="304"/>
+        <image name="FISD" width="566" height="268"/>
+    </resources>
+</document>
